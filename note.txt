@@ -1,0 +1,35 @@
+1 Use the terminal/GitBash to navigate to your “Evangadi” folder location that you have
+on your Desktop
+
+ctrl + `, pwd  
+
+2. In your “Evangadi” folder, create a folder called “BashPractice”
+
+$ mkdir BashPractice
+
+3. In your “BashPractice” folder, create another folder called “BashTest”
+
+$ cd BashPractice 
+$ mkdir BashTest
+
+4. In your “BashPractice”folder, create a text file called my “myTextFile.txt”
+
+$touch myTextFile.txt
+
+5. Add the text "Hello bash" in the “myTextFile.txt” file using the "echo" command
+
+$ echo "Hello bash2 " > myTextPractice.txt to replace
+$ echo "Hello bash2 " >> myTextPractice.txt to append or add txt
+
+6. Rename the “myTextFile.txt” file name to “myTextPractice.txt”
+
+$ mv myTextFile.txt  myTextPractice2.txt
+
+7. Change the permission of“myTextPractice.txt” file to 776
+???????
+8. Delete the “BashTest” folder along with the text file inside it
+
+$ rmdir BashTest  remove empty folder
+$ rm -rf BashTest  remove folder and anyting inside it
+
+## to open on new windo that we create it $ code .    
