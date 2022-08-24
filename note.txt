@@ -26,10 +26,16 @@ $ echo "Hello bash2 " >> myTextPractice.txt to append or add txt
 $ mv myTextFile.txt  myTextPractice2.txt
 
 7. Change the permission of“myTextPractice.txt” file to 776
-???????
+
+$ chmod 444 myTextPractice (to give a read permission)
+
 8. Delete the “BashTest” folder along with the text file inside it
 
 $ rmdir BashTest  remove empty folder
-$ rm -rf BashTest  remove folder and anyting inside it
+$ rm -rf BashTest  remove folder and anyting inside it (it force to delet the folder and file)
 
 ## to open on new windo that we create it $ code .    
+
+** To  liste all files and folder (ls-It) and it liste or print the first 10 folder and files.
+
+** 
